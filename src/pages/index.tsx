@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Avatar from '@/assets/avatar.jpg';
 import ProjectList from '@/components/ProjectList';
+import AnnualGoals from '@/components/AnnualGoals';
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
         </div>
 
         <ProjectList />
+
+        <AnnualGoals />
       </main>
     </div>
   );
