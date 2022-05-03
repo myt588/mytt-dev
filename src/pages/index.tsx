@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Avatar from '@/assets/avatar.jpg';
 import ProjectList from '@/components/ProjectList';
 import AnnualGoals from '@/components/AnnualGoals';
+import Timeline from '@/components/Timeline';
 
 export default function Home() {
   return (
@@ -26,6 +27,8 @@ export default function Home() {
         <ProjectList />
 
         <AnnualGoals />
+
+        <Timeline />
       </main>
     </div>
   );

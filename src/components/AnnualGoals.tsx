@@ -6,7 +6,7 @@ const goals = [
   `成为一名influencer`,
 ];
 
-export default function AnnualGoal() {
+export default function AnnualGoals() {
   return (
     <section>
       <h3 className="text-xl font-bold text-center my-5">
