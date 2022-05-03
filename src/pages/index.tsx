@@ -1,10 +1,8 @@
 import Head from 'next/head';
 
-import styles from '@/styles/Home.module.css';
-
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>可能开发的个人主页-圈子们-东京圈-开发圈创始人</title>
         <meta
@@ -14,13 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+      <main>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
       </main>
 
-      <footer className={styles.footer}>
+      <footer>
         <a
           href="https://vercel.com?utm_source=typescript-nextjs-starter"
           target="_blank"
