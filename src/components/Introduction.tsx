@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from '@/components/Image';
 import Avatar from '@/assets/avatar.jpg';
 
 export default function Introduction() {
