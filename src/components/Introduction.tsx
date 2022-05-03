@@ -12,6 +12,34 @@ export default function Introduction() {
         来自浙江的一个小镇，硅谷圣塔克拉拉大学计算机本科，东京大学计算机硕士。目前生活在日本东京。
       </div>
       <div className="text-center my-2">目前持续创业中...</div>
+      {false && (
+        <div className="grid grid-cols-1 md:grid-cols-4 mt-5">
+          <div className="flex flex-col items-center">
+            <h4 className="text-lg">微信</h4>
+            <div className="w-24 h-24 my-5">
+              <Image src={Avatar} alt="微信账号" />
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <h4 className="text-lg">抖音</h4>
+            <div className="w-24 h-24 my-5">
+              <Image src={Avatar} alt="抖音账号" />
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <h4 className="text-lg">知乎</h4>
+            <div className="w-24 h-24 my-5">
+              <Image src={Avatar} alt="知乎账号" />
+            </div>
+          </div>
+          <div className="flex flex-col items-center">
+            <h4 className="text-lg">B站</h4>
+            <div className="w-24 h-24 my-5">
+              <Image src={Avatar} alt="B站账号" />
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }
