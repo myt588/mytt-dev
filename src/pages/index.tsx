@@ -1,4 +1,7 @@
 import Head from 'next/head';
+import Image from 'next/image';
+import Avatar from '@/assets/avatar.jpg';
+import ProjectList from '@/components/ProjectList';
 
 export default function Home() {
   return (
@@ -12,19 +15,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </main>
+      <main className="mx-auto max-w-screen-lg">
+        <h1 className="text-3xl font-bold text-center my-5">可能开发</h1>
+        <h2 className="text-2xl font-bold text-center my-3">mytt.dev</h2>
+        <div className="w-24 h-24 mx-auto rounded-full">
+          <Image src={Avatar} alt="avatar" />
+        </div>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=typescript-nextjs-starter"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{` `}
-        </a>
-      </footer>
+        <ProjectList />
+      </main>
     </div>
   );
 }
