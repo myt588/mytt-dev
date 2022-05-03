@@ -32,10 +32,10 @@ const projects = [
     description: `具体内容目前还是个秘密 ㊙️`,
   },
   {
-    link: `#`,
+    link: `mailto:yetian.mao@gmail.com`,
     title: `More to come`,
-    subtitle: `欢迎合作`,
-    description: `...`,
+    subtitle: `欢迎合作交流`,
+    description: `联系我点这里 👆 ...`,
   },
 ];
 
