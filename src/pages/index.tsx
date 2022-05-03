@@ -1,8 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Avatar from '@/assets/avatar.jpg';
 import ProjectList from '@/components/ProjectList';
 import AnnualGoals from '@/components/AnnualGoals';
+import Introduction from '@/components/Introduction';
 import Timeline from '@/components/Timeline';
 
 export default function Home() {
@@ -19,14 +18,13 @@ export default function Home() {
 
       <main className="mx-auto max-w-screen-lg">
         <h1 className="text-3xl font-bold text-center my-5">可能开发</h1>
-        <h2 className="text-2xl font-bold text-center my-3">mytt.dev</h2>
-        <div className="w-24 h-24 mx-auto rounded-full">
-          <Image src={Avatar} alt="avatar" />
-        </div>
+        <h2 className="text-2xl font-bold text-center mb-6">mytt.dev</h2>
 
         <ProjectList />
 
         <AnnualGoals />
+
+        <Introduction />
 
         <Timeline />
       </main>
