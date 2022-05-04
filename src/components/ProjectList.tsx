@@ -2,7 +2,7 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projects = [
   {
-    link: `https://tokyo-circles.com`,
+    link: `https://tokyo-circles.com/`,
     title: `东京圈投资移民`,
     subtitle: `Tokyo Circles`,
     description: `以最透明的价格和最优质的服务，致力于帮助想要在日本定居的朋友们.`,
