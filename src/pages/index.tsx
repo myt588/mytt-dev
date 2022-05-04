@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="mx-auto max-w-screen-lg">
+      <main className="px-2 mx-auto max-w-screen-lg">
         <h1 className="text-3xl font-bold text-center my-5">可能开发</h1>
         <h2 className="text-2xl font-bold text-center mb-6">mytt.dev</h2>
 
