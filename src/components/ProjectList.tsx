@@ -43,7 +43,7 @@ export default function ProjectList() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 gap-4 my-4">
       {projects.map((project, index) => (
-        <article key={index}>
+        <article key={index} className="width-full">
           <ProjectCard
             link={project.link}
             title={project.title}
