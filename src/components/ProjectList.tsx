@@ -2,10 +2,10 @@ import ProjectCard from '@/components/ProjectCard';
 
 const projects = [
   {
-    link: `https://rokujou.shop/`,
-    title: `「六畳の憩」`,
-    subtitle: `Rokujou`,
-    description: `跨境电商，略有涉猎。`,
+    link: `https://tokyo-circles.com`,
+    title: `东京圈投资移民`,
+    subtitle: `Tokyo Circles`,
+    description: `以最透明的价格和最优质的服务，致力于帮助想要在日本定居的朋友们.`,
   },
   {
     link: `https://residence.xincere.jp/`,
@@ -14,10 +14,10 @@ const projects = [
     description: `针对于想居住在东京周边的朋友，提供的高级不动产服务。`,
   },
   {
-    link: `#`,
-    title: `东京圈投资移民 (WIP)`,
-    subtitle: `Tokyo Circles`,
-    description: `以最透明的价格和最优质的服务，致力于帮助想要在日本定居的朋友们.`,
+    link: `https://rokujou.shop/`,
+    title: `「六畳の憩」`,
+    subtitle: `Rokujou`,
+    description: `跨境电商，略有涉猎。`,
   },
   {
     link: `#`,
